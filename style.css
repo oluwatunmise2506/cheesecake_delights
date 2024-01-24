@@ -1,0 +1,39 @@
+.main_div{
+    background-color: black;
+    height:700px ;
+    position: fixed;
+}
+
+.first_container{
+    background-color:rgba(218, 165, 32, 0.926);
+    width: 600px;
+    height: 200px;
+}
+
+.nav_bar{
+    width: 420px;
+    height: 70px;
+    margin-left: 80px;
+}
+
+.nav_item{
+    width: 80px;
+    position: absolute;
+    background-color: rgba(165, 42, 42, 0.706);
+}
+
+.home_div{
+    padding-left: 20px;
+}
+ 
+.the_about_div{
+    left: 170px;
+}
+
+.the_menu_div{
+    left: 250px;
+}
+  
+.the_contact_div{
+    left: 310px;
+}
