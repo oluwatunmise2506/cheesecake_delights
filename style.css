@@ -1,13 +1,23 @@
-.main_div{
+body{
     background-color: black;
+}
+
+.main_div{
     height:700px ;
     position: fixed;
+    margin-top:70px;
+    margin-left: 20px;
+    
 }
 
 .first_container{
-    background-color:rgba(218, 165, 32, 0.926);
+    display: inline-block;
+}
+
+.inner_div{
+    background-color:#F5E180;
     width: 600px;
-    height: 200px;
+    height: 250px;
 }
 
 .nav_bar{
@@ -19,21 +29,64 @@
 .nav_item{
     width: 80px;
     position: absolute;
-    background-color: rgba(165, 42, 42, 0.706);
+    background-color: #61481C;
+    height: 22px;
 }
+
+
 
 .home_div{
     padding-left: 20px;
+    border-radius: 3px;
+    background-color: white;
+
 }
  
 .the_about_div{
-    left: 170px;
+    left: 80px;
 }
 
 .the_menu_div{
-    left: 250px;
+    left: 160px;
 }
   
 .the_contact_div{
-    left: 310px;
+    left: 220px;
+    border-radius: 3px;
+}
+
+.flex_item{
+    position: absolute;
+     
+}
+
+.flex_container{
+    margin-bottom: 2px;
+    height: 20px;
+    
+}
+
+.button_div{
+    left: 470px;
+}
+
+.start_button{
+    border: 1px solid;
+    border-radius: 3px;
+    height: 22px;
+}
+ 
+.text_div{
+    width: 300px;
+    margin-top: 60px;
+    color: #61481C ;
+    
+}
+
+.cheese_image{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-left: 50px;
+    
 }
