@@ -3,7 +3,7 @@ body{
 }
 
 .main_div{
-    height:700px ;
+    height:850px ;
     position: fixed;
     margin-top:70px;
     margin-left: 20px;
@@ -11,47 +11,59 @@ body{
 }
 
 .first_container{
-    display: inline-block;
+    position: absolute;
+    
 }
 
 .inner_div{
     background-color:#F5E180;
     width: 600px;
-    height: 250px;
+    height: 300px;
+    position: absolute;
 }
 
 .nav_bar{
-    width: 420px;
-    height: 70px;
-    margin-left: 80px;
+    width: 200px;
+    height: 50px;
+    margin-left: 90px;
 }
 
 .nav_item{
-    width: 80px;
+    width: 70px;
     position: absolute;
     background-color: #61481C;
-    height: 22px;
+    font-size:x-small;
+    color: white;
+    height: 15px;
+
 }
 
-
+.thecheesecake_logo{
+    width: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 40px;
+}
 
 .home_div{
     padding-left: 20px;
     border-radius: 3px;
     background-color: white;
+    color: #61481C;
+
 
 }
  
 .the_about_div{
-    left: 80px;
+    left: 73px;
 }
 
 .the_menu_div{
-    left: 160px;
+    left: 140px;
 }
   
 .the_contact_div{
-    left: 220px;
+    left: 185px;
     border-radius: 3px;
 }
 
@@ -63,23 +75,35 @@ body{
 .flex_container{
     margin-bottom: 2px;
     height: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 3px;
     
 }
 
 .button_div{
     left: 470px;
+    height: 6px;
+
 }
 
 .start_button{
-    border: 1px solid;
-    border-radius: 3px;
-    height: 22px;
+    border: 1px #61481C solid;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 48px;
+    height: 20px;
+    background-color:#F5E180;
+    color: #61481C ;
+    
+
 }
  
 .text_div{
     width: 300px;
-    margin-top: 60px;
+    margin-top: 50px;
     color: #61481C ;
+    margin-left: 50px;
     
 }
 
@@ -87,6 +111,32 @@ body{
     width: 120px;
     height: 120px;
     border-radius: 120px;
-    margin-left: 50px;
-    
+    margin-left: 400px;
+    display: inline-block;
+    margin-top:100px ;
+}
+ 
+.the_buttons{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.the_text{
+    font-size: 14.5px;
+
+}
+
+.buttons{
+    border-radius:12px ;
+    height: 25px;
+}
+
+.start_btn{
+    background-color: #61481C;
+    color: #F5E180;
+}
+
+.demo{
+    background-color:#F5E180;
+
 }
