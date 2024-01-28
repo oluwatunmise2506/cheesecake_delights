@@ -4,14 +4,17 @@ body{
 
 .main_div{
     height:850px ;
-    position: fixed;
+    position: absolute;
     margin-top:70px;
     margin-left: 20px;
+    font-size: large;
+    color: white;
     
 }
 
 .first_container{
     position: absolute;
+    display: block;
     
 }
 
@@ -78,6 +81,7 @@ body{
     margin-top: 20px;
     display: inline-block;
     margin-left: 3px;
+
     
 }
 
@@ -104,7 +108,7 @@ body{
     margin-top: 50px;
     color: #61481C ;
     margin-left: 50px;
-    
+
 }
 
 .cheese_image{
@@ -134,9 +138,55 @@ body{
 .start_btn{
     background-color: #61481C;
     color: #F5E180;
+    
 }
 
 .demo{
     background-color:#F5E180;
 
 }
+
+.headingText{
+   margin-left: 299px; 
+   font-weight: bold;
+   font-size: larger;
+}
+
+
+.cheesecake_image2{
+    height: 200px;
+    border-radius: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+/* .the_image{
+    display: inline-block;
+} */
+
+
+.the_second_container{
+    background-color: #F8FAE5;
+    height: 250px;
+    width: 600px;
+    margin-top: 300px;
+    
+}
+
+.cheesecake_story{
+    margin-left: 280px;
+    color: #61481C ;
+    position: absolute;
+    margin-top: 30px;
+    font-size: medium;
+
+    
+}
+
+.my_text{
+    margin-bottom: 0px;
+}
+
