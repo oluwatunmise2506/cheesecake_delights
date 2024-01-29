@@ -3,7 +3,7 @@ body{
 }
 
 .main_div{
-    height:850px ;
+    height:860px ;
     position: absolute;
     margin-top:70px;
     margin-left: 20px;
@@ -12,17 +12,17 @@ body{
     
 }
 
-.first_container{
+.inner_div{
     position: absolute;
-    display: block;
     
 }
 
-.inner_div{
+.first_container{
     background-color:#F5E180;
     width: 600px;
-    height: 300px;
+    height: 400px;
     position: absolute;
+    display: block;
 }
 
 .nav_bar{
@@ -135,7 +135,7 @@ body{
     height: 25px;
 }
 
-.start_btn{
+.the_btn{
     background-color: #61481C;
     color: #F5E180;
     
@@ -154,9 +154,9 @@ body{
 
 
 .cheesecake_image2{
-    height: 200px;
-    border-radius: 200px;
-    width: 200px;
+    height: 180px;
+    border-radius: 180px;
+    width: 180px;
     margin-left: 40px;
     margin-top: 30px;
     display: inline-block;
@@ -170,14 +170,16 @@ body{
 
 .the_second_container{
     background-color: #F8FAE5;
-    height: 250px;
+    height: 300px;
     width: 600px;
     margin-top: 300px;
-    
+    margin-bottom: 0px;
+    display: block;
+    position: absolute;
 }
 
 .cheesecake_story{
-    margin-left: 280px;
+    margin-left: 260px;
     color: #61481C ;
     position: absolute;
     margin-top: 30px;
@@ -190,3 +192,73 @@ body{
     margin-bottom: 0px;
 }
 
+.this_text{
+    font-size: 12px;
+    width: 270px;
+
+}
+
+.readmore_btn{
+    width: 95px;
+    color: whitesmoke;
+    background-color: #61481C;
+    border-radius: 50px;
+    height:35px;
+    border: #61481C solid 2px;
+
+}
+ .the_third_container{
+    background-color:#E8D8C4;
+    height: 300px;
+    width: 600px;
+    display: block;
+    margin-top: 600px;
+ }
+
+ .menu_list{
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    background-color: #F8FAE5;
+    border-radius:15px;
+    border: #F8FAE5 solid 2px;
+ }
+
+ .delights_menu{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    margin-left: 35px;
+    margin-top: 25px;
+ }
+
+ .blueberry_cake{
+    margin-left: 50px;
+ }  
+
+ .biscoff_cake{
+    margin-left:230px;
+
+ }
+
+ .chocolate_cake{
+    margin-left: 410px;
+ }
+
+ .the_menu_texts{
+    font-size: 15.5px;
+    margin-bottom:0px;
+    color: black;
+ }
+
+ .our_menu_text{
+    font-size: x-small;
+    color:#61481C;
+ }
+
+ .this_menu_text{
+    text-align: center;
+    color: #61481C;
+    height: 70px;
+    padding-top: 20px;
+ }
