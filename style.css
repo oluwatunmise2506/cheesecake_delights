@@ -289,3 +289,7 @@ body{
  @media screen and (max-width: 480px) {
     .container{}
  }
+
+ .this_mymenu_text{
+    color: #F8FAE5;
+ }
