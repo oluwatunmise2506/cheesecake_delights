@@ -2,15 +2,31 @@ body{
     background-color: black;
 }
 
-.main_div{
-    height:860px ;
+.menu_sections{
+    height:950px ;
     position: absolute;
-    margin-top:70px;
-    margin-left: 20px;
+    margin-top:40px;
     font-size: large;
-    color: white;
-    
+
 }
+
+.first_half{
+    margin-left: 40px;
+}
+
+.second_half{
+    margin-left: 680px;
+}
+
+.headingText{
+    font-weight: bold;
+    font-size:30px;
+    color: white;
+    margin-left: 299px;
+}
+
+
+
 
 .inner_div{
     position: absolute;
@@ -19,7 +35,6 @@ body{
 
 .first_container{
     background-color:#F5E180;
-    width: 600px;
     height: 400px;
     position: absolute;
     display: block;
@@ -27,8 +42,13 @@ body{
 
 .nav_bar{
     width: 200px;
-    height: 50px;
-    margin-left: 90px;
+    height: 100px;
+    margin-left: 60px;
+    
+}
+ 
+.navbar_items{
+    
 }
 
 .nav_item{
@@ -46,11 +66,12 @@ body{
     border-radius: 30px;
     display: inline-block;
     margin-left: 40px;
+    margin-bottom: 24px;
 }
 
 .home_div{
     padding-left: 20px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: white;
     color: #61481C;
 
@@ -67,7 +88,7 @@ body{
   
 .the_contact_div{
     left: 185px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .flex_item{
@@ -76,8 +97,7 @@ body{
 }
 
 .flex_container{
-    margin-bottom: 2px;
-    height: 20px;
+    height: 50px;
     margin-top: 20px;
     display: inline-block;
     margin-left: 3px;
@@ -105,7 +125,7 @@ body{
  
 .text_div{
     width: 300px;
-    margin-top: 50px;
+    margin-top: 25px;
     color: #61481C ;
     margin-left: 50px;
 
@@ -146,11 +166,6 @@ body{
 
 }
 
-.headingText{
-   margin-left: 299px; 
-   font-weight: bold;
-   font-size: larger;
-}
 
 
 .cheesecake_image2{
@@ -171,7 +186,6 @@ body{
 .the_second_container{
     background-color: #F8FAE5;
     height: 300px;
-    width: 600px;
     margin-top: 300px;
     margin-bottom: 0px;
     display: block;
@@ -210,7 +224,6 @@ body{
  .the_third_container{
     background-color:#E8D8C4;
     height: 300px;
-    width: 600px;
     display: block;
     margin-top: 600px;
  }
@@ -261,4 +274,18 @@ body{
     color: #61481C;
     height: 70px;
     padding-top: 20px;
+ }
+
+ .last_container{
+    background-color: #61481C;
+ }
+
+
+ .container{
+    width: 600px;
+
+ }
+
+ @media screen and (max-width: 480px) {
+    .container{}
  }
