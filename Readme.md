@@ -11,6 +11,8 @@
 
 
 ## Preview
+![image](https://github.com/oluwatunmise2506/cheesecake_delights/assets/113690817/4502c4f4-601d-4471-8b6d-8c272637099d)
+
 
  ## Technologies Used   
 
